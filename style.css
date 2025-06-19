@@ -65,6 +65,7 @@ p {
   font-size: 15px;
 }
 .container:hover {
-transform: translate(120px, 50%);
+  transform: scale(1.05);
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
